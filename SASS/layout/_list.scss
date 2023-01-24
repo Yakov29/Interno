@@ -1,0 +1,35 @@
+.list{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.list .container{
+    display: flex;
+    justify-content: center;
+}
+
+.list__list{
+    display: flex;
+    
+}
+
+.list__item{
+    text-align: center;
+    width: 358px;
+}
+
+.item__name{
+    @extend %item-name;
+    margin-bottom: 20px;
+}
+
+.item__description{
+    @extend %description-text;
+}
+
+.more{
+    @extend %button-text;
+    color: #4D5053;
+    margin-top: 52px;
+    display: block;
+}

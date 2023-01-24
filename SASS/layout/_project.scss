@@ -1,0 +1,24 @@
+.project{
+    padding-top: 151px;
+    padding-bottom: 151px;
+    background: #F4F0EC;
+}
+
+.projet__list{
+    display: flex;
+    gap: 76px;
+    justify-content: center;
+}
+
+.project__item{
+    text-align: center;
+}
+
+.project__title{
+    @extend %section-title;
+    color: #CDA274;
+}
+
+.project__description{
+    @extend %description-text;
+}

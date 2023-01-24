@@ -1,0 +1,35 @@
+.wanna{
+    padding-top: 202px;
+    padding-bottom: 135px;
+    text-align: center
+}
+
+
+.wanna .container{
+    background: #292F36;
+border-radius: 70px;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+.wanna__title{
+    @extend %section-title;
+    color: #FFFF;
+}
+
+.wanna__description{
+    @extend %description-text;
+    color: #FFFFFF;
+    margin-top: 11px;
+}
+
+.wanna__button{
+    width: 237.14px;
+height: 75px;
+background: #CDA274;
+box-shadow: 0px 10px 20px #1F2022;
+border-radius: 18px;
+border: none;
+@extend %button-text;
+margin-top: 32px;
+}

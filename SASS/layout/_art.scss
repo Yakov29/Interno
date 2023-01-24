@@ -1,0 +1,58 @@
+.art .container{
+    display: flex;
+    align-items: center
+}
+
+.art__name{
+    @extend %section-title;
+    margin-bottom: 30px;
+}
+
+.art__description{
+    @extend %description-text;
+}
+
+.art__box{
+    width: 472px;
+    margin-right: 75px;
+   
+}
+
+.box__icons{
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 47px;
+    align-items: center;
+}
+
+.box__svg{
+   background: #F4F0EC;
+   border-radius: 50%;
+   width: 44px;
+    height: 44px;
+    padding: 12px;
+    fill: #CDA274;
+    margin-right: 15px;
+}
+
+.art__span{
+    font-weight: 700;
+    font-family: 'Jost';
+font-size: 24px;
+line-height: 1.5;
+color: #4D5053;
+}
+
+.second{
+    @extend %description-text;
+}
+
+.art__button{
+    width: 219.14px;
+height: 75px;
+border: none;
+background: #292F36;
+box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+border-radius: 18px;
+@extend %button-text;
+}

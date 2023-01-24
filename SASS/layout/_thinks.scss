@@ -1,0 +1,60 @@
+.thinks{
+    padding-top: 200px;
+}
+
+.thinks .container{
+    text-align: center;
+    background: #F4F0EC;
+border-radius: 70px;
+padding-bottom: 88px;
+padding-top: 88px;
+}
+
+.thinks__list{
+    display: flex;
+    gap: 20px
+}
+
+.thinks__title{
+    @extend %section-title;
+    width: 547px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 38px;
+}
+
+.thinks__item{
+    width: 370px;
+height: 339px;
+background: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+padding-top: 53px;
+padding-left: 37px;
+padding-right: 37px;
+border-radius: 20px;
+text-align: left;
+justify-content: center;
+}
+
+.thinks__div{
+    display: flex;
+    align-items: center;
+    
+}
+
+.thinks__img{
+    border-radius: 50%;
+    margin: 0;
+    margin-right: 23px
+}
+
+.thinks__map{
+    @extend %description-text;
+}
+
+.thinks__description{
+    @extend %description-text;
+    margin-top: 25px;
+}

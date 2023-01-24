@@ -1,0 +1,36 @@
+header{
+    padding-top: 43px;
+    padding-bottom: 45px;
+}
+
+header .container{
+    display: flex;
+    align-items: center
+}
+
+.header__logo{
+    @extend %logo-text;
+    align-items: center;
+    display: flex;
+}
+
+.header__logo-img{
+    margin-right: 10px;
+}
+
+.header__list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 399px;
+    margin-right: 31px;
+}
+
+.header__search{
+    display: block;
+    margin-left: auto;
+}
+
+.header__link{
+  @extend %text-link;
+}

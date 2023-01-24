@@ -1,0 +1,37 @@
+.desighn{
+    padding-top: 150px;
+    text-align: center;
+}
+
+.desighn__title{
+    @extend %section-title;
+}
+
+.desighn__description{
+    @extend %description-text;
+    width: 737px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+
+.desighn__list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 104px;
+    margin-top: 93px;
+}
+
+.desighn__item{
+    text-align: left;
+}
+
+.desighn__name{
+    margin-top: 28px;
+}
+
+.desighn__text{
+    @extend %description-text;
+}

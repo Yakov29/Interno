@@ -1,0 +1,61 @@
+.footer .container{
+    display: flex;
+    border-bottom: 2px solid #757575;
+    padding-bottom: 134px;
+}
+
+.footer__box{
+    width: 393px;
+    display: block;
+}
+
+.footer__logo{
+    display: flex;
+    @extend %logo-text;
+    width: 177px;
+    
+}
+
+.footer__description{
+    @extend %description-text;
+    margin-top: 18px;
+}
+
+.footer__svg{
+    display: flex;
+    margin-top: 31px;
+    gap: 55px;
+}
+
+.footer__list{
+    display: flex;
+    margin-left: 101px;
+}
+
+.item__list__item{
+    margin-top: 40px;
+}
+
+.item__list__item:first-child{
+    margin-top: 0;
+}
+
+.footer__link{
+    @extend %description-text;
+    width: 125px;
+    width: 258px;
+}
+
+.title-link{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 1.24;
+}
+
+.footer__FAQ{
+    @extend %description-text;
+    text-align: center;
+    margin-top: 40px;
+}

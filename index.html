@@ -1,100 +1,471 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="container">
-            <div class="header__logo">
-                <img src="./images/Logo.svg" alt="">
-                <span>Interno</span>
-            </div>
-            <ul class="header__list">
-                <li class="header__item">
-                    <a href="#">Home</a>
-                </li>
-                <li class="header__item">
-                    <a href="#">Pages</a>
-                </li>
-                <li class="header__item">
-                    <a href="#">Servises</a>
-                </li>
-                <li class="header__item">
-                    <a href="#">Project</a>
-                </li>
-                <li class="header__item">
-                    <a href="#">Blog</a>
-                </li>
-                <li class="header__item">
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-            <img src="./images/Vector.svg" alt="">
+      <div class="container">
+        <div class="header__logo">
+          <img class="header__logo-img" src="./images/Logo.svg" alt="" />
+          <span>Interno</span>
         </div>
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#">Home</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Pages</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Servises</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Project</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Blog</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Contact</a>
+          </li>
+        </ul>
+        <img class="header__search" src="./images/Vector.svg" alt="" />
+      </div>
     </header>
     <section class="hero">
-        <div class="container">
-            <h1>Let Your Home Be Unique</h1>
-            <p>There are many variations of the passages of lorem Ipsum fromavailable,variations of the passages.</p>
-            <button type="button">Get Started</button>
-        </div>
+      <div class="container">
+        <h1>Let Your Home Be Unique</h1>
+        <p class="hero__description">
+          There are many variations of the passages of lorem Ipsum
+          fromavailable,variations of the passages.
+        </p>
+        <button class="hero__button" type="button">Get Started</button>
+      </div>
     </section>
     <section class="list">
-        <div class="container">
-            <ul class="list__list">
-                <li class="list__item">
-                    <h4>Project Plan</h4>
-                    <p>There are many variations of the passages of lorem Ipsum from available, majority.</p>
-                    <span>Read More</span>
-                </li>
-                <li class="list__item">
-                    <h4>Interior Work</h4>
-                    <p>There are many variations of the passages of lorem Ipsum from available, majority.</p>
-                    <span>Read More</span>
-                </li>
-                <li class="list__item">
-                    <h4>Realization</h4>
-                    <p>There are many variations of the passages of lorem Ipsum from available, majority.</p>
-                    <span>Read More</span>
-                </li>
-            </ul>
-        </div>
+      <div class="container">
+        <ul class="list__list">
+          <li class="list__item">
+            <h4 class="item__name">Project Plan</h4>
+            <p class="item__description">
+              There are many variations of the passages of lorem Ipsum from
+              available, majority.
+            </p>
+            <span class="more">Read More</span>
+          </li>
+          <li class="list__item">
+            <h4 class="item__name">Interior Work</h4>
+            <p class="item__description">
+              There are many variations of the passages of lorem Ipsum from
+              available, majority.
+            </p>
+            <span class="more">Read More</span>
+          </li>
+          <li class="list__item">
+            <h4 class="item__name">Realization</h4>
+            <p class="item__description">
+              There are many variations of the passages of lorem Ipsum from
+              available, majority.
+            </p>
+            <span class="more">Read More</span>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="art">
-        <div class="container">
+      <div class="container">
         <div class="art__box">
-            <h2>
-                We Create The Art Of Stylish Living Stylishly
-            </h2>
-            <p>It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.</p>
-            <div class="box__icons">
-                <svg width="32px" height="32px">
-                    <use href="./images/symbol-defs.svg#icon-Call"></use>
-                </svg>
-                <ul>
-                    <li>
-                        <span>012345678</span>
-                    </li>
-                    <li>
-                        <span>Call Us Anytime</span>
-                    </li>
-                </ul>
-            </div>
-            <button>Get Free Estimate</button>
+          <h2 class="art__name">
+            We Create The Art Of Stylish Living Stylishly
+          </h2>
+          <p class="art__description">
+            It is a long established fact that a reader will be distracted by
+            the of readable content of a page when lookings at its layouts the
+            points of using that it has a more-or-less normal.
+          </p>
+          <div class="box__icons">
+            <svg class="box__svg" width="32px" height="32px">
+              <use href="./images/symbol-defs.svg#icon-Call"></use>
+            </svg>
+            <ul>
+              <li>
+                <span class="art__span">012345678</span>
+              </li>
+              <li>
+                <span class="second">Call Us Anytime</span>
+              </li>
+            </ul>
+          </div>
+          <button class="hero__button art__button">Get Free Estimate</button>
         </div>
-        <img width="653px" height="700px" src="./images/Image.png" alt="">
-        </div>
+        <img width="653px" height="700px" src="./images/Image.png" alt="" />
+      </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-</body>
-
+    <section class="thinks">
+      <div class="container">
+        <h2 class="thinks__title">What the People Thinks About Us</h2>
+        <ul class="thinks__list">
+          <li class="thinks__item">
+            <div class="thinks__div">
+              <img
+                class="thinks__img"
+                width="77px"
+                height="77px"
+                src="./images/people1.jpg"
+                alt=""
+              />
+              <div>
+                <h5>Nattasha Mith</h5>
+                <p class="thinks__map">Sydney, USA</p>
+              </div>
+            </div>
+            <p class="thinks__description">
+              Lorem Ipsum is simply dummy text of the typesetting industry.
+              Ipsum has been.
+            </p>
+          </li>
+          <li class="thinks__item">
+            <div class="thinks__div">
+              <img
+                class="thinks__img"
+                width="77px"
+                height="77px"
+                src="./images/people2.png"
+                alt=""
+              />
+              <div>
+                <h5>Raymond Galario</h5>
+                <p class="thinks__map">Sydney, Australia</p>
+              </div>
+            </div>
+            <p class="thinks__description">
+              Lorem Ipsum is simply dummy text of the typesetting industry.
+              Ipsum has been.
+            </p>
+          </li>
+          <li class="thinks__item">
+            <div class="thinks__div">
+              <img
+                class="thinks__img"
+                width="77px"
+                height="77px"
+                src="./images/people3.jpg"
+                alt=""
+              />
+              <div>
+                <h5>Benny Roll</h5>
+                <p class="thinks__map">Sydney, New York</p>
+              </div>
+            </div>
+            <p class="thinks__description">
+              Lorem Ipsum is simply dummy text of the typesetting industry.
+              Ipsum has been.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="images">
+      <div class="container">
+        <ul class="images__list">
+          <li>
+            <img
+              width="131.28px"
+              height="42.37px"
+              src="./images/01.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="131.28px"
+              height="42.37px"
+              src="./images/01.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="131.28px"
+              height="42.37px"
+              src="./images/01.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="131.28px"
+              height="42.37px"
+              src="./images/01.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="131.28px"
+              height="42.37px"
+              src="./images/01.png"
+              alt=""
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="desighn">
+      <div class="container">
+        <h2 class="desighn__title">Follow Our Projects</h2>
+        <p class="desighn__description">
+          It is a long established fact that a reader will be distracted by the
+          of readable content of page lookings at its layouts points.
+        </p>
+        <ul class="desighn__list">
+          <li class="desighn__item">
+            <img
+              width="525px"
+              height="550px"
+              src="./images/desighn1.jpg"
+              alt=""
+            />
+            <h5 class="desighn__name">Modern Kitchan</h5>
+            <p class="desighn__text">Decor / Artchitecture</p>
+          </li>
+          <li class="desighn__item">
+            <img
+              width="525px"
+              height="550px"
+              src="./images/desighn2.jpg"
+              alt=""
+            />
+            <h5 class="desighn__name">Modern Kitchan</h5>
+            <p class="desighn__text">Decor / Artchitecture</p>
+          </li>
+          <li class="desighn__item">
+            <img
+              width="525px"
+              height="550px"
+              src="./images/desighn3.jpg"
+              alt=""
+            />
+            <h5 class="desighn__name">Modern Kitchan</h5>
+            <p class="desighn__text">Decor / Artchitecture</p>
+          </li>
+          <li class="desighn__item">
+            <img
+              width="525px"
+              height="550px"
+              src="./images/desighn4.jpg"
+              alt=""
+            />
+            <h5 class="desighn__name">Modern Kitchan</h5>
+            <p class="desighn__text">Decor / Artchitecture</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="project">
+      <div class="container">
+        <ul class="projet__list">
+          <li class="project__item">
+            <h4 class="project__title">12</h4>
+            <p class="project__description">Years Of Experiance</p>
+          </li>
+          <li class="project__item">
+            <h4 class="project__title">85</h4>
+            <p class="project__description">Success Project</p>
+          </li>
+          <li class="project__item">
+            <h4 class="project__title">15</h4>
+            <p class="project__description">Active Project</p>
+          </li>
+          <li class="project__item">
+            <h4 class="project__title">95</h4>
+            <p class="project__description">Happy CUstomers</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="news">
+      <div class="container">
+        <h2 class="news__title">Articles & News</h2>
+        <p class="news__description">
+          It is a long established fact that a reader will be distracted by the
+          of readable content of a page when lookings at its layouts the points
+          of using.
+        </p>
+        <ul class="news__list">
+          <li class="news__item">
+            <img
+              class="news__img"
+              width="340"
+              height="289.27"
+              src="./images/kitchen.jpg"
+              alt=""
+            />
+            <button class="news__button">Kitchan Design</button>
+            <h3>Let’s Get Solution For Building Construction Work</h3>
+            <p class="nwes__data">26 December,2022</p>
+            <svg class="news__svg" width="5.94px" height="13.37px">
+              <use href="./images/symbol-defs.svg#icon-right-arrow"></use>
+            </svg>
+          </li>
+          <li class="news__item">
+            <img
+              class="news__img"
+              width="340"
+              height="289.27"
+              src="./images/living.jpg"
+              alt=""
+            />
+            <button class="news__button">Living Design</button>
+            <h3>Low Cost Latest Invented Interior Designing Ideas.</h3>
+            <p class="nwes__data">22 December,2022</p>
+            <svg class="news__svg" width="5.94px" height="13.37px">
+              <use href="./images/symbol-defs.svg#icon-right-arrow"></use>
+            </svg>
+          </li>
+          <li class="news__item">
+            <img
+              class="news__img"
+              width="340"
+              height="289.27"
+              src="./images/Interior.jpg"
+              alt=""
+            />
+            <button class="news__button">Interior Design</button>
+            <h3>Best For Any Office & Business Interior Solution</h3>
+            <p class="nwes__data">25 December,2022</p>
+            <svg class="news__svg" width="5.94px" height="13.37px">
+              <use href="./images/symbol-defs.svg#icon-right-arrow"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="wanna">
+      <div class="container">
+        <h2 class="wanna__title">Wanna join the interno?</h2>
+        <p class="wanna__description">It is a long established fact will be distracted.</p>
+        <button class="wanna__button">Contact With Us</button>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__box">
+          <div class="footer__logo">
+            <img src="./images/Logo.svg" alt="" />
+            <span>Interno</span>
+          </div>
+          <p class="footer__description">It is a long established fact that a reader will be distracted lookings.</p>
+          <ul class="footer__svg">
+            <li>
+              <svg width="17px" height="17px">
+                <use href="./images/symbol-defs.svg#icon-fesebook"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="17px" height="17px">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="17px" height="17px">
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="17px" height="17px">
+                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <ul class="footer__item__list">
+              <li class="item__list__item">
+                <h5 class="footer__link title-link">Pages</h5>
+              </li>
+              <li class="item__list__item">
+                <h5 class="footer__link">About Us</h5>
+              </li>
+              <li class="item__list__item">
+                <h5 class="footer__link">Our Projects</h5>
+              </li>
+              <li class="item__list__item">
+                <h5 class="footer__link">Our Team</h5>
+              </li>
+              <li class="item__list__item">
+                <h5 class="footer__link">Contact Us</h5>
+              </li>
+              <li class="item__list__item">
+                <h5 class="footer__link">Services</h5>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__item">
+            <ul class="footer__item__list">
+              <li class="item__list__item">
+                <h5 class="footer__link title-link">Services</h5>
+              </li>
+              <li class="item__list__item">
+                <h5 class="footer__link">Kitchan</h5>
+              </li>
+              <li class="item__list__item">
+                <h5 class="footer__link">Living Area</h5>
+              </li>
+              <li class="item__list__item">
+                <h5 class="footer__link">Bathroom</h5>
+              </li>
+              <li class="item__list__item">
+                <h5 class="footer__link">Dinning Hall</h5>
+              </li>
+              <li class="item__list__item">
+                <h5 class="footer__link">Bedroom</h5>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__item">
+            <ul class="footer__item__list">
+              <li class="item__list__item">
+                <h5 class="footer__link title-link">Contact</h5>
+              </li>
+              <li class="item__list__item">
+                <h5 class="footer__link">55 East Birchwood Ave. Brooklyn, New York 11201</h5>
+              </li>
+              <li class="item__list__item">
+                <h5 class="footer__link">contact@interno.com</h5>
+              </li>
+              <li class="item__list__item">
+                <h5 class="footer__link">(123) 456 - 7890</h5>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <p class="footer__FAQ">
+        Copyright © Interno | Designed by Victorflow Templates - Powered by
+        Webflow
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
