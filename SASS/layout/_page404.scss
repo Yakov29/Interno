@@ -1,0 +1,45 @@
+.error .container{
+    display: flex;
+    align-items: center;
+}
+
+.error__box{
+    width: 569px;
+}
+
+.error__title{
+    font-weight: 400;
+font-size: 250px;
+line-height: 1.24;
+color: #CDA274;
+margin-bottom: 15px;
+}
+
+.error__description{
+    font-weight: 400;
+font-size: 35px;
+line-height: 1.48;
+margin-bottom: 23px;
+}
+
+.error__button{
+    width: 253.14px;
+height: 75px;
+background: #292F36;
+box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+border-radius: 18px;
+padding-top: 26px;
+padding-left: 54px;
+padding-right: 54px;
+padding-bottom: 26px;
+margin-top: 23px;
+display: block;
+@extend %button-text;
+}
+
+.error__image{
+   width: 50%;
+   position: absolute;
+   right: 0;
+   top: 139px;
+}
